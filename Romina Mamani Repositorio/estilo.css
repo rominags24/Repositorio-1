@@ -1,0 +1,41 @@
+/* Estilos para el menú */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Cambia el color del enlace al pasar el mouse sobre él */
+nav li a:hover {
+    background-color: #111;
+}
+
+/* Estilo para el enlace activo (página actual) */
+.active {
+   background-color: #04AA6D;
+}
+.producto
+{
+width: 25%;
+float: left;
+border: 1px solid #F4D3A3;
+background-color: #B83A1C;
+color: #fff;margin: 1%;
+height: 28%;
+text-align: center;
+padding: 1%;
+}
